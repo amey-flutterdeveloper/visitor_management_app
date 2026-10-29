@@ -36,8 +36,8 @@ The application is developed using Flutter and Dart, follows the BLoC pattern fo
 | MockAPI | Mock backend for visitor data |
 | qr_flutter | QR code generation |
 | mobile_scanner | QR code scanning |
-| intl | Date and time formatting |
-| equatable | Value equality|
+| intl | Date and time formatting, if used |
+| equatable | Value equality, if used |
 
 Refer to `pubspec.yaml` for the project's actual dependencies and versions.
 
@@ -214,23 +214,23 @@ This architecture helps separate the user interface, application logic, and data
 
 ### Dashboard
 
-![Dashboard](screenshots/01_dashboard.jpeg)
+![Dashboard](screenshots/dashboard.jpeg)
 
 ### Visitor List
 
-![Visitor List](screenshots/02_visitor_list.jpeg)
+![Visitor List](screenshots/visitor_list.jpeg)
 
 ### Visitor Registration
 
-![Visitor Registration](screenshots/03_visitor_registration.jpeg)
+![Visitor Registration](screenshots/visitor_registration.jpeg)
 
 ### Visitor Details and QR Code
 
-![Visitor Details and QR Code](screenshots/04_visitor_details_qr.jpeg)
+![Visitor Details and QR Code](screenshots/visitor_details_qr.jpeg)
 
 ### QR Scanner
 
-![QR Scanner](screenshots/05_qr_scanner.jpeg)
+![QR Scanner](screenshots/qr_scanner.jpeg)
 
 ## Build an Android APK
 
